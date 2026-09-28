@@ -1,0 +1,28 @@
+{
+  "version": "1.6.0",
+  "slug": "business-suite-apps",
+  "title": "Business Suite Apps",
+  "audience": "Organizations, teams, educators, agencies and multi-seat buyers",
+  "site": "Business pricing and quote request pages",
+  "app": "Business Basic, Plus, Premium and Pro app channel",
+  "access": "Business account, quote or Stripe subscription entitlement",
+  "releaseSource": {
+    "ownerPullRequest": "https://github.com/Aesdocktectics/kinforge-genealogy-studio/pull/19",
+    "ownerBranch": "codex/kinforge-owner-1.6.0",
+    "manifest": "server/releaseManifest.ts",
+    "updateFolder": "Downloads/KinForge Genealogy Studio Supreme Suite/Updates/1.6.0"
+  },
+  "packages": [
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-setup.exe",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-portable.exe"
+  ],
+  "requirements": [
+    "Connect 1.6.0 packages to business subscribers",
+    "Keep request-a-quote, seat count and discount workflow wired to support and Stripe",
+    "Keep admin/customer roles separate from KinForge owner roles"
+  ]
+}
